@@ -1,0 +1,942 @@
+
+
+
+.logoImg{
+    background-color: green;
+    }
+    
+    /* Navbar */
+    .navMain{
+    overflow: hidden;
+    }
+    .nav__logo{
+    background-color: darkgreen;
+    width: 25%;
+    text-align: center;
+    float: left;
+    height: 70px;
+    padding: 10px;
+    }
+    
+    .navbar__item{
+        background-color: blanchedalmond;
+        width: 75%;
+        float: right;
+        height: 70px;
+    }
+    
+    .navHead{
+    
+    }
+    
+    .navbar__item ul{
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+    
+    .navbar__item ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 20px;
+    
+    }
+    
+    .navbar__item ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+            font-weight: 500;
+            padding-left: 10px;
+    }
+    
+    .navbar__item ul li a:hover{
+        color: darkgreen;
+    }
+    
+    #navbar__item-btn {
+        background-color: black;
+        padding: 10px;
+    
+    }
+    
+    #navbar__item-btn a{
+        color:white ;
+    }
+    
+    #navbar__item-btn a:hover{
+        background-color: darkgreen;
+    }
+    
+    .navHide{
+    display: none;
+    }
+    
+    .toggleIcon{
+        display: none;
+        margin-left: 10px;
+    }
+    .aaa{
+        
+    }
+    
+    @media screen and (max-width:768px){
+    
+        .navHead{
+        display: none;
+        }
+        .toggleIcon{
+            display: block;
+            text-align: center;
+        }
+    
+        .navHead.menu-on{
+            display: block;
+    
+        }
+        .nav__logo{
+            width: 100%;
+            height: 60px;
+        }
+        .navbar__item{
+            width: 100%;
+            height: auto;
+    
+        }
+        .navHide{
+        
+    }
+        .navbar__item ul {
+            text-align: left;
+        }
+    
+        .navbar__item ul li{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+    /* Welcome */
+    
+    .welcom{
+        margin-bottom: 50px;
+    }
+    
+    
+    .welcome__description{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+    .welcome__heading{    
+        margin-top: 100px;
+        text-align: center;}
+    
+    .sermons__bg-img{
+        background-image: url(../images/service-3.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        left:0;
+        top:0;
+        transform-origin: 50% 50%;
+        margin: 10px;
+    }
+    
+    .sermons{
+        overflow: hidden;
+        position: absolute;
+        top:50px;
+    }
+    .sermons__icon{    
+        font-size: 76px;
+        justify-content: center;
+        color: whitesmoke;
+        display: flex;
+    }
+    .sermons__heading a{    
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-size: .7em;
+    }
+    .sermons__heading a:hover{
+        color: gray;
+        text-decoration: none;
+    
+    }
+    .sermons__description{    
+        justify-content: center;
+        display: flex;
+        color: white;
+        text-align: center;
+        padding:10px 30px;
+        font-size: .9em;
+        line-height: 1.3em;
+        }
+    .sermons__btn{   
+        
+        color: white;
+        padding: 10px 20px;
+        background: midnightblue;
+        border: none;}
+    
+    .sermons__btn-position{
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .mosque__bg-img{
+        background-image: url(../images/service-2.jpg);
+        background-size: cover;
+        height: 350px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        left:0;
+        top:0;
+        transform-origin: 50% 50%;
+        margin: 10px;
+    }
+    
+    .mosque{
+        overflow: hidden;
+        position: absolute;
+        top:50px;
+    }
+    .mosque__icon{    
+        font-size: 76px;
+        justify-content: center;
+        color: whitesmoke;
+        display: flex;
+    }
+    .mosque__heading a{    
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-size: .7em;
+    }
+    .mosque__heading a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+    .mosque__description{    
+        justify-content: center;
+        display: flex;
+        color: white;
+        text-align: center;
+        padding:10px 30px;
+        font-size: .9em;
+        line-height: 1.3em;
+        }
+    .mosque__btn{   
+        
+        color: white;
+        padding: 10px 20px;
+        background: midnightblue;
+        border: none;}
+    
+    .mosque__btn-position{
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .event__bg-img{
+        background-image: url(../images/service-1.jpg);
+        background-size: cover;
+        height: 350px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        left:0;
+        top:0;
+        transform-origin: 50% 50%;
+        margin: 10px;
+    }
+    
+    .event{
+        overflow: hidden;
+        position: absolute;
+        top:50px;
+    }
+    .event__icon{    
+        font-size: 76px;
+        justify-content: center;
+        color: whitesmoke;
+        display: flex;
+    }
+    .event__heading a{    
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-size: .7em;
+    }
+    .event__heading a:hover{
+        color: gray;
+        text-decoration: none;
+    }
+    .event__description{    
+        justify-content: center;
+        display: flex;
+        color: white;
+        text-align: center;
+        padding:10px 30px;
+        font-size: .9em;
+        line-height: 1.3em;
+        }
+    .event__btn{   
+        
+        color: white;
+        padding: 10px 20px;
+        background: midnightblue;
+        border: none;}
+    
+    .event__btn-position{
+        display: flex;
+        justify-content: center; 
+    }
+    
+    
+    /* Upcoming Event */
+    
+    .event__upcoming{
+        
+        background-color:#291f1f;
+        height: 300px;
+    }
+    .htp{padding-bottom: 50px;}
+    
+    .countdown{
+        width: 100%;
+        background: green;
+        height: 300px;
+    }
+    
+    .event__upcoming-heading{
+        font-size: 4em;
+        color: white;
+        padding-top: 40px;
+    }
+    
+    .event__upcoming-description{
+        font-size: 2em;
+        color: white;
+        padding-bottom: 73px;
+    }
+    
+    .ountdown__timer{
+        padding-top: 50px;
+        color: white;
+        
+    }
+    
+    .countdown__form{
+        padding-bottom: 80px;
+    }
+    
+    .countdown__form-text{
+        padding: 10px 80px 10px 20px;
+        font-weight: 600;
+    }
+    
+    .countdown__form-submit{
+        padding: 12px;
+        background-color: #291f1f;
+        color: white;
+        border: none;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    
+    .countdown__form-checkbox{
+        color: white;
+        font-weight: 500;
+    }
+    
+    /* About us */
+    
+    .aboutUs__heading{
+        text-align: center;
+    }
+    
+    .aboutUs__description{
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding-bottom: 50px;
+    }
+    
+    .aboutUs__description-2{
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    
+    .aboutUs__heading-2{
+        text-align: center;
+        color: green;
+        font-weight: 600;
+    }
+    
+    .aboutPad{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    
+    
+    /* Community */
+    
+    .CommunityPad{
+        padding-bottom: 70px;
+        padding-top: 30px;
+    }
+    .americanMuslim__content{
+        text-align: center;
+        background-color:#291f1f; 
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    
+    .americanMuslim__content h5{
+        padding-bottom: 20px;
+    }
+    .americanMuslim__content h5 a{
+        color: white;
+        text-decoration: none;
+        padding-bottom: 10px;
+    }
+    
+    .americanMuslim__content h5 a:hover{
+        color: gray;
+    }
+    
+    .americanMuslim__content p{
+        color: white;
+        padding-bottom: 10px;
+    }
+    
+    .americanMuslim__btn{
+        padding: 10px 20px;
+        border: none;
+        background-color: white;
+    }
+    
+    .americanMuslim__btn a{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .americanMuslim__btn a:hover{
+        color:  green;
+        text-decoration: none;
+    }
+    
+    .cmmunityGuide__content{
+        text-align: center;
+    
+    }
+    .cmmunityGuide__content h6{
+        padding-top: 20px;
+    }
+    .cmmunityGuide__content h6 a{
+        color: white;
+    }
+    .cmmunityGuide__content h6 a:hover{
+        color: gray;
+        text-decoration: none;
+    }
+    .cmmunityGuide__content h4{
+        padding: 10px 0;
+    }
+    .cmmunityGuide__content h4 a{
+        color: white;
+    }
+    .cmmunityGuide__content h4 a:hover{
+        color: gray;
+        text-decoration: none;
+    }
+    
+    .cmmunityGuide__content span a{
+        color: white;
+    }
+    .cmmunityGuide__content span a:hover{
+        color: gray;
+        text-decoration: none;
+    }
+    
+    .cmmunityGuide__image1{
+        background-image: url(../images/service-1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 160px;
+        margin:0 10px 30px 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    
+    .cmmunityGuide__image2{
+        background-image: url(../images/service-1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 160px;
+        margin:0 10px 30px 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    
+    .cmmunityGuide__image3{
+        background-image: url(../images/service-1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 160px;
+        margin:0 10px 30px 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    
+    /* Donate Medicin */
+    
+    .donateHeading{
+        text-align: center;
+    }
+    
+    .donateDescription{
+        text-align: center;
+    }
+    
+    .donateMedicin{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .donateMedicin__img{
+        width: 100%;
+    }
+    
+    .donateMedicin__heading h3{
+     
+    }
+    .donateMedicin__heading a{
+        color: black;
+    }
+    
+    .donateMedicin__heading a:hover{
+        color: green;
+        text-decoration: none;
+    }
+    .donateMedicin__pogress{
+        display: flex;
+    }
+    
+    .donateMedicin__price{
+        background: #563b3b;
+        width: 70%;
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    .donateMedicin__percent{
+        background: #ececf5;
+        width: 30%;
+        padding: 10px;
+        text-align: right;
+        font-weight: bold;
+    }
+    
+    .donatBtn-p{
+        padding-top: 20px;
+    }
+    
+    .donatBtn a{
+        padding: 10px 15px;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .donatBtn a:hover{
+        text-decoration: none;
+        background-color:black;
+        color: white;
+    }
+    
+    
+    /* Donate Housing */
+    
+    .donateHousing{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .donateHousing__img{
+        width: 100%;
+    }
+    
+    .donateHousing__heading h3{
+     
+    }
+    .donateHousing__heading a{
+        color: black;
+    }
+    
+    .donateHousing__heading a:hover{
+        color: green;
+        text-decoration: none;
+    }
+    .donateHousing__pogress{
+        display: flex;
+    }
+    
+    .donateHousing__price{
+        background: #563b3b;
+        width: 40%;
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    .donateHousing__percent{
+        background: #ececf5;
+        width: 60%;
+        padding: 10px;
+        text-align: right;
+        font-weight: bold;
+    }
+    
+    .donatBtn-p{
+        padding-top: 20px;
+    }
+    
+    .donatBtn a{
+        padding: 10px 15px;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .donatBtn a:hover{
+        text-decoration: none;
+        background-color:black;
+        color: white;
+    }
+    
+    /* Donate Education */
+    
+    .donateEducation{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .donateEducation__img{
+        width: 100%;
+    }
+    
+    .donateEducation__heading h3{
+     
+    }
+    .donateEducation__heading a{
+        color: black;
+    }
+    
+    .donateEducation__heading a:hover{
+        color: green;
+        text-decoration: none;
+    }
+    .donateEducation__pogress{
+        display: flex;
+    }
+    
+    .donateEducation__price{
+        background: #563b3b;
+        width: 50%;
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    .donateEducation__percent{
+        background: #ececf5;
+        width: 50%;
+        padding: 10px;
+        text-align: right;
+        font-weight: bold;
+    }
+    
+    .donatBtn-p{
+        padding-top: 20px;
+    }
+    
+    .donatBtn a{
+        padding: 10px 15px;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .donatBtn a:hover{
+        text-decoration: none;
+        background-color:black;
+        color: white;
+    }
+    
+    /*banner*/
+    .bannerImg{
+        background-image: url(../images/ban.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    /* Contact Us */
+    
+    .contactPad{
+        padding-bottom: 50px;
+    }
+    
+    .contactUs{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .contactUs__icon{
+        color:green;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .contactUs__heading{
+        text-align: center;
+    }
+    
+    .contactUs__description{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+    
+    .contactUs__heading-css{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .contactUs__heading-css a{
+        color: black;
+    }
+    
+    .contactUs__heading-css a:hover{
+        text-decoration: none;
+        color: green;
+    }
+    
+    .contactUs__description-css{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .contactUs__description-css a{
+        color: green;
+    }
+    
+    .contactUs__description-css a:hover{
+        color: gray;
+        text-decoration: none;
+    }
+    
+    /* Map */
+    
+    .mapImg img{
+        width: 100%;
+    }
+    
+    /* Join Us */
+    
+    .joinUs{
+        background-image: url(../images/ban.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .joinUs__heading{
+        text-align: center;
+        color: white;
+        padding-top: 100px;
+        font-size: 3rem;
+    }
+    
+    .joinUs__description{
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .joinUs__description-btn{
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .joinUs__description-btn a{
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 20px 30px;
+        color: white;
+        background-color: #563b3b;
+    }
+    
+    .joinUs__description-btn a:hover{
+        color: #563b3b;
+        background-color: white;
+        text-decoration: none;
+    }
+    
+    /*Footer Head*/
+    
+    .footerHead{
+        background: black;
+        height: 120px;
+    }
+    
+    .footerHead__description{
+        text-align: center;
+        padding-top: 50px;
+        color: gray;
+        font-size: 1.2rem;
+    }
+    
+    .footerHead__description a{
+        color: white;
+    }
+    
+    .footerHead__description a:hover{
+        color: gray;
+        text-decoration: none;
+    }
+    
+    
+    /* Footer */
+    
+    
+    
+    .footer__Bg-color{
+    background-color: #291f1f;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
+    .footer__col1-img{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    }
+    .footer__col1-p{
+    color: white;
+    
+    }
+    .footer__col2-heading{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 1.6rem;
+    color: white;
+    }
+    .footer__col2-img1{
+    display: inline-block;
+    float:left;
+    padding: 5px;
+    }
+    .footer__col2-link1{
+    display: inline-block;
+    padding: 5px;
+    }
+    .footer__col2-link1 a{
+    color:white;
+    }
+    .footer__col2-link1 a:hover{
+    color:gray;
+    text-decoration: none;
+    }
+    .footer__col2-img2{
+    display: inline-block;
+    float:left;
+    padding: 5px;
+    }
+    .footer__col2-link2{
+    display: inline-block;
+    padding: 5px;
+    }
+    .footer__col2-link2 a{
+    color:white;
+    }
+    .footer__col2-link2 a:hover{
+    color:gray;
+    text-decoration: none;
+    }
+    .imgLink1{clear: both;
+    padding-top: 10px;
+    }
+    .imgLink2{clear: both;
+    padding-top: 10px;
+    }
+    .footer__col3-heading{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 1.6rem;
+    color: white;
+    }
+    .footer__list-link{
+    list-style: none;
+    }
+    .footer__list-link a{
+    color: white;
+    }
+    .footer__list-link a:hover{
+    color: gray;
+    text-decoration: none;
+    }
+    
+    .facColor{
+        color:gray;
+    }
+    .footer__col4-heading{
+    color: white;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 1.6rem;
+    }
+    .footerCol4Contact__phone{
+    text-decoration: none;
+    margin: 0;
+    }
+    .footerCol4Contact__phone a{
+    color: white;
+    }
+    .footerCol4Contact__phone a:hover{
+    color: gray;
+    text-decoration: none;
+    }
+    
+    .footerCol4Contact__time{
+    margin: 0;
+    padding-left: 28px;
+    padding-bottom: 20px;
+    color: white;
+    }
+    .footerCol4Contact__location{
+    margin:0;
+    }
+    .footerCol4Contact__location span{
+    color: white;
+    }
+    .footerCol4Contact__addres{
+    margin: 0;
+    color: white;
+    padding-left: 25px;
+    }
