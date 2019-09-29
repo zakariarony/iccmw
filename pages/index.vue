@@ -1,6 +1,5 @@
 <template>
 <div>
-  <new-navbar></new-navbar>
   <theme-carousel></theme-carousel>
   <time-event></time-event>
   <khatibs></khatibs>
@@ -12,7 +11,6 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar'
 import Carousel from '@/components/Carousel'
 import Welcom from '@/components/Welcom'
 import Event from '@/components/Event'
@@ -22,12 +20,10 @@ import Donate from '@/components/Donate'
 import Contact from '@/components/Contact'
 import Map from '@/components/Map'
 import Footer from '@/components/Footer'
-import NewNavbar from '@/components/NewNavbar'
 import TimeEvent from '@/components/TimeEvent'
 import Khatibs from '@/components/Khatibs'
 export default {
   components : {
-    themeNavbar: Navbar,
     themeCarousel: Carousel,
     themeWelcom: Welcom,
     themeEvent: Event,
@@ -37,7 +33,6 @@ export default {
     themeContact: Contact,
     themeMap: Map,
     themeFooter: Footer,
-      NewNavbar,
       TimeEvent,
       Khatibs
   }

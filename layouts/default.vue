@@ -1,9 +1,15 @@
 <template>
   <div>
+    <new-navbar></new-navbar>
     <nuxt />
   </div>
 </template>
-
+<script>
+  import NewNavbar from '@/components/NewNavbar'
+  export default {
+    components: {NewNavbar},
+  }
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

@@ -4,7 +4,7 @@
             <a class="navbar-brand logoImg" href="#">
                 <img class="navbarLogo" src="~/assets/images/latestLogo.png" alt="">
             </a>
-            <h5 class="font-weight-bold navbarTitle">ISLAMIC community center of Mid Westchester</h5>
+            <h5 class="font-weight-bold navbarTitle">Islamic Community Center of Mid Westchester</h5>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -12,7 +12,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto text-uppercase">
                     <li class="nav-item mr-2 pt-2 pt-lg-0">
-                        <button type="button" class="btn btn-outline-success text-uppercase">Donation</button>
+                        <button type="button" class="btn btn-success text-uppercase btn-lg">Donate</button>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
