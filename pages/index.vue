@@ -1,7 +1,10 @@
 <template>
 <div>
+  <new-navbar></new-navbar>
   <theme-navbar></theme-navbar>
   <theme-carousel></theme-carousel>
+  <time-event></time-event>
+  <khatibs></khatibs>
   <theme-welcom></theme-welcom>
   <theme-event></theme-event>
   <theme-about></theme-about>
@@ -25,6 +28,9 @@ import Donate from '@/components/Donate'
 import Contact from '@/components/Contact'
 import Map from '@/components/Map'
 import Footer from '@/components/Footer'
+import NewNavbar from '@/components/NewNavbar'
+import TimeEvent from '@/components/TimeEvent'
+import Khatibs from '@/components/Khatibs'
 export default {
   components : {
     themeNavbar: Navbar,
@@ -36,7 +42,10 @@ export default {
     themeDonate: Donate,
     themeContact: Contact,
     themeMap: Map,
-    themeFooter: Footer
+    themeFooter: Footer,
+      NewNavbar,
+      TimeEvent,
+      Khatibs
   }
 }
 
