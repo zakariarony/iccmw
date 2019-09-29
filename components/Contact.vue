@@ -1,10 +1,6 @@
 <template>
     <div>
-        <div class="bannerImg">
-  
-</div>
-
-<section class="container contactPad">
+      <section class="container contactPad">
   <div class="contactUs">
     <h1 class="contactUs__heading">Stay in Touch</h1>
     <p class="contactUs__description">Our Contacts</p>

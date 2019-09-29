@@ -65,7 +65,7 @@
 </footer>
 
 <div class="footerHead">
-  <p class="footerHead__description">Copyright © 2019 by <a href="#">Axiom.</a> All rights reserved.</p>
+  <p class="footerHead__description">Copyright © 2019 by <a href="#">ReformedTech.</a> All rights reserved.</p>
 </div>
     </div>
 </template>

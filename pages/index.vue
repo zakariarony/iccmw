@@ -1,12 +1,10 @@
 <template>
 <div>
   <new-navbar></new-navbar>
-  <theme-navbar></theme-navbar>
   <theme-carousel></theme-carousel>
   <time-event></time-event>
   <khatibs></khatibs>
   <theme-welcom></theme-welcom>
-  <theme-event></theme-event>
   <theme-about></theme-about>
   <theme-community></theme-community>
   <theme-donate></theme-donate>

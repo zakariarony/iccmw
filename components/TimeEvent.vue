@@ -26,7 +26,7 @@
                         </tr>
                         <tr>
                             <td>Sunrise</td>
-                            <td>O7:20 AM</td>
+                            <td colspan="2">O7:20 AM</td>
                         </tr>
                         <tr>
                             <td>Duhur</td>
@@ -55,7 +55,7 @@
                         </tr>
                         <tr>
                             <td>Khateeb</td>
-                            <td>Sh. Omar Ali</td>
+                            <td colspan="2">Sh. Omar Ali</td>
                         </tr>
                         <tr>
                             <td>Jummah</td>
@@ -64,7 +64,7 @@
                         </tr>
                         <tr>
                             <td>Khateeb</td>
-                            <td>Sh. Ismail Khan</td>
+                            <td colspan="2">Sh. Ismail Khan</td>
                         </tr>
                         </tbody>
                     </table>
