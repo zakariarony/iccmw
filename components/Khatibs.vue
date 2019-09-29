@@ -11,13 +11,6 @@
         <h3 class="text-center py-4 mt-5">Please subscribe to get Mosque related event notifications</h3>
         <div class="row px-3 py-3  py-lg-5 px-lg-5 subscribePart">
             <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-                <!--
-                <input
-                        type="email"
-                        class="form-control"
-                        id="inputEmail"
-                        placeholder="Email"
-                >-->
                 <input
                         class="subscribe__form-text"
                         type="email"
@@ -25,21 +18,12 @@
                 >
             </div>
             <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12 pt-3 pt-sm-0">
-                <!--
-                <input
-                        type="number"
-                        class="form-control"
-                        id="inputPhone"
-                        placeholder="Phone"
-                >-->
                 <input
                         class="subscribe__form-text"
                         type="number"
                         placeholder="YOUR PHONE">
             </div>
             <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-3 pt-md-0">
-                <!--
-                <button type="submit" class="btn btn-primary mb-2 text-uppercase w-100">Subscribe</button>-->
                 <input
                         class="subscribe__submit-btn w-100"
                         type="submit"
