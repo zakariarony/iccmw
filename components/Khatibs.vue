@@ -2,9 +2,12 @@
     <section class="container">
         <h2 class="text-center py-4">This Month Jummah Khatib's</h2>
         <div class="row justify-content-around">
-            <div class="col-md-3 pb-3 pb-md-0" v-for="n in 4">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            <div class="col-md-3 pb-3 pb-md-0" v-for="khatib in khatibs">
+                <div class="card">
+                    <img :src="khatib.img" class="card-img-top khatibImg" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{khatib.name}}</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -35,8 +38,34 @@
 </template>
 
 <script>
+    import MawlanaPic1 from '@/assets/images/mawlana1.jpg' ;
+    import MawlanaPic2 from '@/assets/images/mawlana2.jpg' ;
+    import MawlanaPic3 from '@/assets/images/mawlana3.png' ;
+    import MawlanaPic4 from '@/assets/images/mawlana4.jpg' ;
     export default {
-        name: "Khatibs"
+        name: "Khatibs",
+        data(){
+            return {
+                khatibs: [
+                    {
+                        name: 'Abdul Jalal',
+                        img: MawlanaPic1
+                    },
+                    {
+                        name: 'Abdul Karim',
+                        img: MawlanaPic2
+                    },
+                    {
+                        name: 'Abdul Based',
+                        img: MawlanaPic3
+                    },
+                    {
+                        name: 'Abdul Awal',
+                        img: MawlanaPic4
+                    }
+                ]
+            }
+        }
     }
 </script>
 
@@ -55,5 +84,8 @@
     }
     .subscribePart{
         background-color: green;
+    }
+    .khatibImg{
+        height: 210px !important;
     }
 </style>

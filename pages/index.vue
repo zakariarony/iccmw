@@ -4,10 +4,6 @@
   <theme-carousel></theme-carousel>
   <time-event></time-event>
   <khatibs></khatibs>
-  <theme-welcom></theme-welcom>
-  <theme-about></theme-about>
-  <theme-community></theme-community>
-  <theme-donate></theme-donate>
   <theme-contact></theme-contact>
   <theme-map></theme-map>
   <theme-footer></theme-footer>
