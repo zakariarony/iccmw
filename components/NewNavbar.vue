@@ -2,8 +2,9 @@
     <navbar>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand logoImg" href="#">
-                <img src="~/assets/images/logo.png" alt="">
+                <img class="navbarLogo" src="~/assets/images/latestLogo.png" alt="">
             </a>
+            <h5 class="font-weight-bold navbarTitle">ISLAMIC community center of Mid Westchester</h5>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,5 +37,17 @@
 </script>
 
 <style scoped>
+    .navbarLogo{
+        height: 48px;
+        width: 100px;
+    }
+    .navbarTitle{
+        display: none;
+    }
+    @media (min-width: 768px) {
+        .navbarTitle{
+            display: inline-block;
+        }
+    }
 
 </style>

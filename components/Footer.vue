@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div><!--
         <footer class="footer__Bg-color">
   <section class="container">
     <div class="row">
@@ -62,7 +62,7 @@
       </div>
     </div>
   </section>
-</footer>
+</footer>-->
 
 <div class="footerHead">
   <p class="footerHead__description">Copyright © 2019 by <a href="#">ReformedTech.</a> All rights reserved.</p>
