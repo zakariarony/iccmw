@@ -13,7 +13,7 @@
                     <li class="nav-item mr-2 pt-2 pt-lg-0">
                         <button type="button" class="btn btn-outline-success text-uppercase">Donation</button>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
