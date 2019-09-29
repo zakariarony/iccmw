@@ -1,12 +1,12 @@
 <template>
     <div>
         <div class="mapImg">
-  <div class="row">
-    <div class="col">
-      <img class="addressMap" src="~/assets/images/map.jpg"  alt="">
-    </div>
-  </div>
-</div>
+            <div class="row">
+                <div class="col">
+                    <img class="addressMap" src="~/assets/images/map.jpg"  alt="">
+                </div>
+            </div>
+        </div>
         <!--
 
 <div class="joinUs">
