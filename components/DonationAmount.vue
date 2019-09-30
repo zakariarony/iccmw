@@ -31,30 +31,30 @@
             <h4 class="pb-2">Donation Amount</h4>
             <div>
               <div class="row ">
-                <label class="col-sm-4 col-md-3">
+                <label class="col-6 col-sm-4 col-md-3">
                   <button type="button" class="btn btn-lg btn-primary w-100 active">$10,000</button>
                 </label>
-                <label class="col-sm-4 col-md-3">
+                <label class="col-6 col-sm-4 col-md-3">
                   <button type="button" class="btn btn-lg btn-primary w-100 ">$5,000</button>
                 </label>
 
-                <label class="col-sm-4 col-md-3">
+                <label class="col-6 col-sm-4 col-md-3">
                   <button type="button" class="btn btn-lg btn-primary w-100">$2,500</button>
                 </label>
-                <label class="col-sm-4 col-md-3">
+                <label class="col-6 col-sm-4 col-md-3">
                   <button type="button" class="btn btn-lg btn-primary w-100">$1,000</button>
                 </label>
-                <label class="col-sm-4 col-md-3">
+                <label class="col-6 col-sm-4 col-md-3">
                   <button type="button" class="btn btn-lg btn-primary w-100">$500</button>
                 </label>
-                <label class="col-sm-4 col-md-3">
+                <label class="col-6 col-sm-4 col-md-3">
                   <button type="button" class="btn btn-lg btn-primary w-100">$250</button>
                 </label>
               </div>
             </div>
           </div>
           <div class="pt-5">
-            <span class="pr-2">Other :</span>
+            <span class="pr-2"><b>Other :</b></span>
             <input placeholder="$" />
           </div>
         </div>
