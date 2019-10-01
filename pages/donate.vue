@@ -142,16 +142,19 @@
       </div>
     </div>
     <div> <donation-amount></donation-amount> </div>
+    <div><submit-payment></submit-payment> </div>
   </div>
   
 </template>
 
 <script>
 import DonationAmount from "@/components/DonationAmount";
+import SubmitPayment from "@/components/SubmitPayment";
 
 export default {
   components: {
-    DonationAmount
+    DonationAmount,
+    SubmitPayment
   }
 };
 </script>

@@ -28,6 +28,6 @@
 </template>
 <style scoped>
   .carouselImage{
-    height: 300px;
+    height: 80vh;
   }
 </style>

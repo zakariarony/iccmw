@@ -22,6 +22,6 @@
 </template>
 <style scoped>
     .addressMap{
-        height: 300px;
+        height: 40vh;
     }
 </style>
